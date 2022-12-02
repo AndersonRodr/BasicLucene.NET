@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ar.cavalcante\\source\\repos\\LuceneTest\\ConsoleAppElasticSearch\\ConsoleAppElasticSearch.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ar.cavalcante\\source\\repos\\LuceneTest\\ConsoleAppElasticSearch\\ConsoleAppElasticSearch.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ar.cavalcante\\source\\repos\\LuceneTest\\ConsoleAppElasticSearch\\ConsoleAppElasticSearch.csproj",
+        "projectName": "ConsoleAppElasticSearch",
+        "projectPath": "C:\\Users\\ar.cavalcante\\source\\repos\\LuceneTest\\ConsoleAppElasticSearch\\ConsoleAppElasticSearch.csproj",
+        "packagesPath": "C:\\Users\\ar.cavalcante\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ar.cavalcante\\source\\repos\\LuceneTest\\ConsoleAppElasticSearch\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ar.cavalcante\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\ar.cavalcante\\source\\repos\\sidi-nc-quick-search-scp-poc\\SmartSearch\\SmartEngine": {},
+          "C:\\Users\\ar.cavalcante\\source\\repos\\sidi-nc-quick-search-us-poc\\SmartSearch\\SmartEngine": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Lucene.Net": {
+              "target": "Package",
+              "version": "[4.8.0-beta00016, )"
+            },
+            "Lucene.Net.Analysis.Common": {
+              "target": "Package",
+              "version": "[4.8.0-beta00016, )"
+            },
+            "Lucene.Net.QueryParser": {
+              "target": "Package",
+              "version": "[4.8.0-beta00016, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
